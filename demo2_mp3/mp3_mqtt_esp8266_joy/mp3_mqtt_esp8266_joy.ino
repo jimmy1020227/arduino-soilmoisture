@@ -8,8 +8,8 @@
 SoftwareSerial mySerial(RX_PIN, TX_PIN);
 
 //Joy modify start,????
-#define joy_home
-#ifdef joy_home
+//#define jimmy_home
+#ifdef jimmy_home
 const char* ssid = "";
 const char* password = "";//home ap password
 const char* mqtt_server = "172.10.2.1";//mac in home ip
